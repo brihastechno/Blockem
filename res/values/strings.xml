@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Blockem</string>
+    <string name="notImplemented">Not Implemented Yet</string>
+    <string name="exit">Exit</string>
+    <string name="shareScore">Share score</string>
+    <string name="next">Next:</string>
+    <string name="score">Score:</string>
+    <string name="newGame">New game</string>
+    <string name="resumeGame">Resume game</string>
+    <string name="highScores">High Scores</string>
+    <string name="pause">\nPause\n</string>
+    <string name="resume">\nResume\n</string>
+    <string name="gameover">Game over</string>
+    <string name="accesibilityLogo">"Logo"</string>
+    <string name="accesibilityCombo">"Combo"</string>
+    <string name="accesibilityNextPiece">"Next Piece"</string>
+    <string name="first">"1st"</string>
+    <string name="second">"2nd"</string>
+    <string name="third">"3rd"</string>
+    <string name="nohscores">"No scores"</string>
+    <string name="viewChangelog">"View Changelog"</string>
+    <string name="donate">"Donate"</string>
+    <string name="preferences">"Preferences"</string>
+    <string name="donateWhy">Why should I donate?</string>
+    <string name="donate1">Probably you should not. Surely this game doesnt seem very exciting, or maybe you thought, "Oh, it's a good idea, but still has a long way to go." A small donation is a good incentive to go down that road. I have spent many hours on this, and I have so many more to invest, and I would like it to be profitable enough to take a couple of cups of coffee</string>
+    <string name="donate2">Thank you!</string>
+    <string name="changelog">"Changelog"</string>
+    <string name="preferencesSound">Sound</string>
+    <string name="preferencesSoundFX">FX sounds</string>
+    <string name="preferencesSoundFXEnabled">Sound efects enabled</string>
+    <string name="preferencesSoundFXDisabled">Sound efects disabled</string>
+    <string name="preferencesSoundMusic">Music</string>
+    <string name="preferencesSoundMusicEnabled">Music enabled</string>
+    <string name="preferencesSoundMusicDisabled">Music disabled</string>
+    <string name="preferencesGame">Game</string>
+    <string name="preferencesGameVibration">Vibration</string>
+    <string name="preferencesGameVibrationChecked">Vibrate</string>
+    <string name="preferencesGameVibrationUnchecked">Don\'t vibrate</string>
+    <string name="preferencesGameBackgrounds">Show board background</string>
+    <string name="preferencesGameBackgroundsChecked">Show</string>
+    <string name="preferencesGameBackgroundsUnchecked">Dont show</string>
+    <string name="preferencesGameAboutBackgrounds">About backgrounds</string>
+    <string name="preferencesScreen">Screen</string>
+    <string name="preferencesScreenKeepOn">Keep on</string>
+    <string name="preferencesScreenKeepOnChecked">Screen will not lock</string>
+    <string name="preferencesScreenKeepOnUnchecked">Screen will lock as usually</string>
+    <string name="shareScoreSelector">Share with#8230;</string>
+    <string name="shareScore1">I just scored </string>
+    <string name="shareScore2"> playing Blockem! \n\nCheck it out:\n\n[link]</string>
+    <string name="button_start_text"> Start Game</string>
+    <string name="copyright_text">Game and Software \u00a9 2013-2014 Blockm</string>
+
+</resources>

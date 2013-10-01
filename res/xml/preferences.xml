@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="prefSound"
+        android:selectable="false"
+        android:title="@string/preferencesSound" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefSoundMusic"
+            android:persistent="true"
+            android:summaryOff="@string/preferencesSoundMusicDisabled"
+            android:summaryOn="@string/preferencesSoundMusicEnabled"
+            android:title="@string/preferencesSoundMusic" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="prefSoundFX"
+            android:persistent="true"
+            android:summaryOff="@string/preferencesSoundFXDisabled"
+            android:summaryOn="@string/preferencesSoundFXEnabled"
+            android:title="@string/preferencesSoundFX" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="prefGame"
+        android:title="@string/preferencesGame" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="prefVibration"
+            android:persistent="true"
+            android:summaryOff="@string/preferencesGameVibrationUnchecked"
+            android:summaryOn="@string/preferencesGameVibrationChecked"
+            android:title="@string/preferencesGameVibration" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefBackgrounds"
+            android:persistent="true"
+            android:summaryOff="@string/preferencesGameBackgroundsUnchecked"
+            android:summaryOn="@string/preferencesGameBackgroundsChecked"
+            android:title="@string/preferencesGameBackgrounds" >
+        </CheckBoxPreference>
+
+        <Preference
+            android:key="prefAboutBg"
+            android:title="@string/preferencesGameAboutBackgrounds" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="prefScreen"
+        android:title="@string/preferencesScreen" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="prefKeepOn"
+            android:persistent="true"
+            android:summaryOff="@string/preferencesScreenKeepOnUnchecked"
+            android:summaryOn="@string/preferencesScreenKeepOnChecked"
+            android:title="@string/preferencesScreenKeepOn" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

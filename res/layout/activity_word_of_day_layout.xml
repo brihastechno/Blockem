@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/metallic"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayoutInit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp" >
+
+        <TextView
+            android:id="@+id/textView_B"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/block_height"
+            android:background="@drawable/block_red"
+            android:gravity="center"
+            android:text="  WORD OF DAY  "
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/block_text_sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Linguistic"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="@dimen/block_text_loading" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/block_blue"
+        android:paddingLeft="5dp"
+        android:text="linguistic •\liŋ-ˈgwis-tik\• adjective
+1. consisting of or related to language
+2. of or relating to the scientific study of language"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/block_text_loading" />
+
+</LinearLayout>

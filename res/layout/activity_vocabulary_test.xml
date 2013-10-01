@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/metallic"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/block_height"
+        android:layout_margin="10dp" >
+
+        <TextView
+            android:id="@+id/textView_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/block_text_sp" />
+
+        <Button
+            android:id="@+id/button_take_test"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right|center_vertical"
+            android:text="Take A Test" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="top"
+        android:layout_marginBottom="@dimen/block_height"
+        android:layout_marginTop="@dimen/block_height" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_page_no"
+        android:layout_width="@dimen/block_width"
+        android:layout_height="@dimen/block_height"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="@drawable/block_yellow"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/block_text_sp"
+        android:gravity="center"
+        android:text="1"
+        
+        android:textStyle="bold" />
+
+</FrameLayout>

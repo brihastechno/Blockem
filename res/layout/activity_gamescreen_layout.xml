@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:panel="http://schemas.android.com/apk/res/com.blockem.tetris"
+    android:id="@+id/linearLayoutMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black_background"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+
+    <com.blockem.tetris.BoardView
+        android:id="@+id/GameView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </com.blockem.tetris.BoardView>
+
+    <com.blockem.tetris.MultiDirectionSlidingDrawer
+        xmlns:my="http://schemas.android.com/apk/res/com.blockem.tetris"
+        android:id="@+id/drawer"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        my:content="@+id/content"
+        my:direction="topToBottom"
+        my:handle="@+id/handle" >
+
+        <FrameLayout
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="top|right"
+            android:background="@android:color/black" >
+
+            <LinearLayout
+                android:id="@+id/scrore_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|right"
+                android:layout_marginRight="30dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/TextView_sco"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Score -"
+                    android:textColor="#EC902B"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/TextViewScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="130000"
+                    android:textColor="#7CBD83"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <ImageView
+            android:id="@id/handle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sliding_drawer_horizontal" />
+    </com.blockem.tetris.MultiDirectionSlidingDrawer>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <com.blockem.tetris.Panel
+            android:id="@+id/leftPanel1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            panel:position="left" >
+
+            <Button
+                android:id="@id/panelHandle"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/sliding_drawer" />
+
+            <LinearLayout
+                android:id="@id/panelContent"
+                android:layout_width="150dp"
+                android:layout_height="fill_parent"
+                android:background="@android:color/black"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/imageViewNext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_gravity="top"
+                    android:layout_margin="10dp"
+                    android:contentDescription="@string/accesibilityNextPiece" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Words"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@android:color/white" />
+
+                <ListView
+                    android:id="@+id/listView_words"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:divider="@android:color/transparent"
+                    android:dividerHeight="0dp"
+                    android:fadingEdge="none"
+                    android:scrollbars="none" >
+                </ListView>
+            </LinearLayout>
+        </com.blockem.tetris.Panel>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,52 @@
+<resources>
+
+    <string name="app_name">Tttris</string>
+    <string name="notImplemented">Funcion no operativa aun</string>
+    <string name="exit">Salir</string>
+    <string name="shareScore">Enviar puntuacion</string>
+    <string name="next">Siguiente:</string>
+    <string name="score">Puntos:</string>
+    <string name="newGame">Nuevo juego</string>
+    <string name="resumeGame">Continuar</string>
+    <string name="highScores">Records</string>
+    <string name="pause">\nPausa\n</string>
+    <string name="resume">\nContinuar\n</string>
+    <string name="gameover">Fin</string>
+    <string name="accesibilityLogo">"Logo"</string>
+    <string name="accesibilityCombo">"Combo"</string>
+    <string name="accesibilityNextPiece">"Siguiente"</string>
+    <string name="first">"1º"</string>
+    <string name="second">"2º"</string>
+    <string name="third">"3º"</string>
+    <string name="nohscores">"No scores"</string>
+    <string name="viewChangelog">"Ver Changelog \(ingles\)"</string>
+    <string name="donate">"Donar"</string>
+    <string name="preferences">"Preferencias"</string>
+    <string name="donateWhy">\¿Por que deberia donar?</string>
+    <string name="donate1">Probablemente no deberias. Seguramente este juego no te ha parecido muy emocionante, o quizas hayas pensado, "Oh, es una buena idea, pero aun le queda mucho camino por delante". Una pequeña donacion es un buen incentivo para ir recorriendo ese camino. He invertido muchas horas en esto, y me quedan muchas mas por invertir, y me gustaria que fuera lo bastante rentable para tomarme un par de tazas de cafe</string>
+    <string name="donate2">Gracias!</string>
+    <string name="changelog">"Changelog"</string>
+    <string name="preferencesSound">Sonido</string>
+    <string name="preferencesSoundFX">Efectos de sonido</string>
+    <string name="preferencesSoundFXEnabled">Efectos activados</string>
+    <string name="preferencesSoundFXDisabled">Efectos desactivados</string>
+    <string name="preferencesSoundMusic">Musica</string>
+    <string name="preferencesSoundMusicEnabled">Musica activada</string>
+    <string name="preferencesSoundMusicDisabled">Musica desactivada</string>
+    <string name="preferencesGame">Juego</string>
+    <string name="preferencesGameVibration">Vibracion</string>
+    <string name="preferencesGameVibrationChecked">Vibrar</string>
+    <string name="preferencesGameVibrationUnchecked">No vibrar</string>
+    <string name="preferencesGameBackgrounds">Imagenes de fondo</string>
+    <string name="preferencesGameBackgroundsChecked">Mostras</string>
+    <string name="preferencesGameBackgroundsUnchecked">No mostrar</string>
+    <string name="preferencesGameAboutBackgrounds">Sobre los fondos</string>
+    <string name="preferencesScreen">Pantalla</string>
+    <string name="preferencesScreenKeepOn">Mantener encendida</string>
+    <string name="preferencesScreenKeepOnChecked">Mantener</string>
+    <string name="preferencesScreenKeepOnUnchecked">Apagar normalmente</string>
+    <string name="shareScoreSelector">Compartir usando#8230;</string>
+    <string name="shareScore1">Acabo de hacer </string>
+    <string name="shareScore2"> puntos jugando a Tttris! \n\nPruebalo:\n\n[link]</string>
+
+</resources>

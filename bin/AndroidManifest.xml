@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.blockem.tetris"
+    android:installLocation="auto"
+    android:versionCode="3"
+    android:versionName="0.9-beta" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.blockem.tetris.Activity_Splash_Loading_Screen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.blockem.tetris.HighScores"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.blockem.tetris.Activity_Word_Of_Day_Class"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.blockem.tetris.Activity_Vocabulary_Improve_Class"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.blockem.tetris.Activity_HomeScreen_Class"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.blockem.tetris.Activity_GameScreen_Class"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.blockem.tetris.Donate"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.blockem.tetris.Changelog"
+            android:label="@string/changelog"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.blockem.tetris.Preferences"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.blockem.tetris.AboutBackgrounds" >
+        </activity>
+             <activity android:name="com.blockem.tetris.Activity_Vocabulary_Test_Class" >
+        </activity>
+        
+       
+    </application>
+
+</manifest>
